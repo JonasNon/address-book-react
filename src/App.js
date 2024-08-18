@@ -30,6 +30,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={() => console.log(users)}>log something</button>
+      <h1>Click on a name to expand details!</h1>
       <ol>{users.map((user, index) => {
             return <UserCard 
             key={index} 
